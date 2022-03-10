@@ -4,18 +4,15 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='toolbox',
+    name='template',
     version='0.0.3',
-    author='Mike Huls',
-    author_email='mike_huls@hotmail.com',
+    author='IJAS',
+    author_email='ijas.ahammed@scrapehero.com',
     description='Testing installation of Package',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url='https://github.com/mike-huls/toolbox',
-    project_urls = {
-        "Bug Tracker": "https://github.com/mike-huls/toolbox/issues"
-    },
+    url='https://github.com/firedrak-e/spider',
     license='MIT',
-    packages=['toolbox'],
-    install_requires=['requests'],
+    packages=['spider'],
+    install_requires=[],
 )
