@@ -13,6 +13,6 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url='https://github.com/firedrak-e/spider',
     license='MIT',
-    packages=['spider'],
+    packages=['toolbox'],
     install_requires=[],
 )
