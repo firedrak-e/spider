@@ -1,3 +1,6 @@
+def hello():
+  print("Hello world")
+
 class Template:
     STARTING_URL = 'https://scrapeme.live/shop/'
 
