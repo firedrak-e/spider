@@ -1,6 +1,4 @@
-
 STARTING_URL = 'https://scrapeme.live/shop/'
-
 def pars(self, doc):
     page_ = doc.find_all(class_='page-numbers')
     no_of_page = int(page_[18].text.strip())
