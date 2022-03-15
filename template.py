@@ -2,7 +2,7 @@ STARTING_URL = 'https://scrapeme.live/shop/'
 def pars(doc):
     page_ = doc.find_all(class_='page-numbers')
     no_of_page = int(page_[18].text.strip())
-#     no_of_page = 2
+#no_of_page = 2
     return ({'url' : [{'url':f'https://scrapeme.live/shop/page/{page_no}/', 'call_back' : 'pars_products'} for page_no in range(1, no_of_page + 1)]})
 
 def pars_products(doc):
