@@ -1,3 +1,9 @@
+# Test case for httpimport
+# https://github.com/operatorequals/httpimport/
+
+def hello():
+  print("Hello world")
+
 class template():
     STARTING_URL = 'https://scrapeme.live/shop/'
     def pars(doc):
